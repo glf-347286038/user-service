@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 121.43.173.95:8848
+        file-extension: yaml
+        username: product
+        password: product
+        group: v1.0
+        # 配置文件动态刷新开启
+        refresh-enabled: true
+        namespace: product

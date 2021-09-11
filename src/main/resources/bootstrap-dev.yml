@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 121.43.173.95:8848
+        file-extension: yaml
+        username: dev
+        password: 123456
+        group: v1.0
+
+
