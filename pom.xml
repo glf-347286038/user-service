@@ -52,6 +52,7 @@
                 <configuration>
                     <!-- springboot main方法入口 -->
                     <mainClass>com.user.UserApplication</mainClass>
+                    <executable>true</executable>
                 </configuration>
                 <executions>
                     <execution>
