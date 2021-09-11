@@ -45,7 +45,7 @@ public class LoginController {
         System.out.println("=====");
         HttpHeaders httpheaders = new HttpHeaders();
 //        httpheaders.add("Authorization", "token " + resp.get("access_token"));
-        HttpEntity<?> httpEntity = new HttpEntity<>(httpheaders);
+//        HttpEntity<?> httpEntity = new HttpEntity<>(httpheaders);
 //        ResponseEntity<Map> exchange = restTemplate.exchange("https://api.github.com/user", HttpMethod.GET, httpEntity, Map.class);
 //        System.out.println("exchange.getBody() = " + new ObjectMapper().writeValueAsString(exchange.getBody()));
         return resp.get("access_token");
