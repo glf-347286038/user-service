@@ -11,4 +11,4 @@ spring:
         group: v1.0
         # 配置文件动态刷新开启
         refresh-enabled: true
-        namespace: product
+        namespace: 5449b0cf-6164-4f7a-9314-2707514901f4
