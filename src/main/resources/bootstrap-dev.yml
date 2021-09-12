@@ -9,3 +9,6 @@ spring:
         username: dev
         password: 123456
         group: v1.0
+server:
+  tomcat:
+    connection-timeout: 120000

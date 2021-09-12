@@ -13,27 +13,59 @@ public interface LoginConstant {
         /**
          * 应用id
          */
-        String CLIENT_ID = "13112e32b406a71b053a";
+        String CLIENT_ID = "client_id";
         /**
          * 应用密钥
          */
-        String CLIENT_SECRET = "4b14c49b25226517d5379f7da3a9e98c9dd287e8";
+        String CLIENT_SECRET = "client_secret";
         /**
-         * github授权后回调地址
+         * 授权码
          */
-        String CALLBACK = "http://localhost/callback";
+        String CODE = "code";
         /**
-         * 获取code的url
+         * token
          */
-        String CODE_URL = "https://github.com/login/oauth/authorize?client_id=" + CLIENT_ID + "&state=STATE&redirect_uri=" + CALLBACK + "";
+        String ACCESS_TOKEN = "access_token";
         /**
-         * 获取token的url
+         * token
          */
-        String TOKEN_URL = "https://github.com/login/oauth/access_token?client_id=" + CLIENT_ID + "&client_secret=" + CLIENT_SECRET + "&code=CODE&redirect_uri=" + CALLBACK + "";
+        String TOKEN = "token ";
+        /**
+         * 请求token的地址
+         */
+        String ACCESS_TOKEN_URL = "https://github.com/login/oauth/access_token";
         /**
          * 获取用户信息的url
          */
-        String USER_INFO_URL = "https://api.github.com/user?access_token=TOKEN";
+        String USER_INFO_URL = "https://api.github.com/user";
+        /**
+         * Authorization
+         */
+        String AUTHORIZATION = "Authorization";
+        /**
+         * 账号
+         */
+        String ACCOUNT = "login";
+        /**
+         * id
+         */
+        String ID = "id";
+        /**
+         * 用户姓名
+         */
+        String NAME = "name";
+        /**
+         * 国籍
+         */
+        String NATIONALITY = "company";
+        /**
+         * 地址
+         */
+        String LOCATION = "location";
+        /**
+         * 签名
+         */
+        String BIO = "bio";
 
     }
 
