@@ -14,10 +14,11 @@ import java.util.concurrent.TimeUnit;
 /**
  * redis工具类
  *
- * @author: gaolingfeng
- * @date: 2021/2/26 1:28
+ * @Author: gaolingfeng
+ * @Date: 2021/2/26 1:28
  */
 @Component
+@SuppressWarnings("ALL")
 public class RedisUtil {
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
